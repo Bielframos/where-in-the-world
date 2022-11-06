@@ -17,7 +17,7 @@
 <div class="px-4 py-10">
 	<section class="grid grid-auto-fill gap-10 container mx-auto">
 		{#each countries as countrie}
-			<div class="grid auto-rows-min overflow-hidden rounded-md">
+			<div class="grid auto-rows-min overflow-hidden rounded-md cursor-pointer hover:scale-105 transition-all hover:shadow-2xl">
 				<div
 					class="aspect-[3/2] flex items-center justify-center overflow-hidden bg-slate-100/60 dark:bg-slate-800/80 border-b border-slate-200 dark:border-slate-700/50"
 				>
