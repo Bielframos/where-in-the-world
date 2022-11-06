@@ -11,5 +11,5 @@ module.exports = {
 			}
 		}
 	},
-	plugins: [require('./tailwind-plugin-auto-fill.cjs'), require('./tailwind-plugin-auto-fit.cjs')]
+	plugins: [require('./tailwind-plugin-auto-fill.cjs'), require('./tailwind-plugin-auto-fit.cjs'), require('prettier-plugin-tailwindcss')]
 }
