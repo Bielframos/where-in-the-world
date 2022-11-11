@@ -49,6 +49,10 @@
 	showBackButton.set(true)
 </script>
 
+<svelte:head>
+	<title>Where in the world? | {countrie.name.common}</title>
+</svelte:head>
+
 <div class="px-4 py-10">
 	<section class="container mx-auto grid gap-10 sm:grid-cols-2">
 		<img

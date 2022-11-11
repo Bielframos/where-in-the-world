@@ -40,6 +40,10 @@
 	showBackButton.set(false)
 </script>
 
+<svelte:head>
+	<title>Where in the world?</title>
+</svelte:head>
+
 <div class="px-4 py-10">
 	<div class="container mx-auto mb-10 flex justify-between gap-4">
 		<div class="relative flex w-full items-center">
