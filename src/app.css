@@ -2,10 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-	@apply bg-slate-200 dark:bg-slate-900 text-slate-900 dark:text-slate-50;
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
-p, h1 {
-	@apply transition-colors;
+body {
+	@apply bg-slate-200 text-slate-900 dark:bg-slate-900 dark:text-slate-50;
+}
+
+.fadeIn {
+	animation: fadeIn 0.8s ease-in;
 }
