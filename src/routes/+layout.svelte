@@ -20,4 +20,12 @@
 
 <main>
 	<slot />
+
+	<div class="container mx-auto flex justify-center px-4 py-4">
+		Challenge by<a class="mx-1 underline" href="https://www.frontendmentor.io?ref=challenge"
+			>Frontend Mentor</a
+		>
+		Coded by
+		<a class="ml-1 underline" href="https://github.com/Bielframos">Gabriel França</a>
+	</div>
 </main>
